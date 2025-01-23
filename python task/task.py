@@ -20,19 +20,23 @@
 # fibonacci_sequence = [fibonacci(i) for i in range(1, num_terms + 1)]
 # print(f"The first {num_terms} Fibonacci numbers are: {fibonacci_sequence}")
 
-# n = input("enter the number 1:")
-# n = input("enter the number 2:")
-# n = input("enter the number 3 :")
+# def fib(n):
+#         fib = [0,1]
+#         for i in range(2, n):
+#                 fib.append(fib[fib[i - 1] + fib[i - 2])
+#         return fib[n]
+# print(fib(10))    
 
-# for i in range:
-#     if n==0:
-#         print(i)
-#     else:
-#         print("enter the number:")
-#     print(i)
 
-# for i in range(0 , 6):
-#     print(i)
+# a,b,c=10,20,,30
+# if a<b and a>c:
+#         largest = a
+# elif b>c:
+#         largest = b
+# else:
+#         largest = c
+# print("largest no: " ,largest)  
+
 
 # # prompt = int("enter the number:")
 # a = 23
@@ -42,18 +46,18 @@
 # print(a*b)
 
 
-# def fizzbuzz():
-#     for i in range(1):
-#         if i >= 3:
+# def fizzbuzz(n):
+#     for i in range(1,n+1):
+#         if i% 3 == 0:
 #             print("fizz")
-#         if i >= 5:
+#         if i% 5==0:
 #             print("buzz")
 #         else:
 #             print("fizzbuzz")
-# fizzbuzz()
-# print(fizzbuzz)
+# fizzbuzz(100)
 
-# def findalldivisors():
+
+# def findalldivisors(num):
 #     for num in range(10):
 #         print(num)
 #     if n == 3:
