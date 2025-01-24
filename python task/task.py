@@ -7,18 +7,6 @@
 # print(f"Factorial of {num} is {factorial(num)}")
 
 
-# def fibonacci(n):
-#     if n <= 0:
-#         return "Invalid Input"
-#     elif n == 1:
-#         return 0
-#     elif n == 2:
-#         return 1
-#     else:
-#         return fibonacci(n - 1) + fibonacci(n - 2)
-# num_terms = 10
-# fibonacci_sequence = [fibonacci(i) for i in range(1, num_terms + 1)]
-# print(f"The first {num_terms} Fibonacci numbers are: {fibonacci_sequence}")
 
 # def fib(n):
 #         fib = [0,1]
