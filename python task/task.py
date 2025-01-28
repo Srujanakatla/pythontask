@@ -3,8 +3,7 @@
 #         return 1
 #     else:
 #         return n * factorial(n - 1)
-# num = 5
-# print(f"Factorial of {num} is {factorial(num)}")
+# print(factorial(5))
 
 
 
